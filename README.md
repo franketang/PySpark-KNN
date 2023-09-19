@@ -8,15 +8,6 @@ This project demonstrates how to implement k-Nearest Neighbors (k-NN) classifica
 
 ![Iris Flowers](images/iris-flowers.png)
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
@@ -30,20 +21,15 @@ You can install the Python libraries using pip:
 
 ```bash
 pip install pyspark scikit-learn
+<img width="1010" alt="Screenshot 2023-09-18 at 7 50 18 PM" src="https://github.com/franketang/PySpark-KNN/assets/29631514/a23e880c-9daa-46f0-a011-3487205747e0">
 
-Getting Started
-Clone this repository to your local machine:
-bash
-Copy code
-git clone https://github.com/your-username/pyspark-knn-project.git
-cd pyspark-knn-project
+
 Ensure that you have Apache Spark properly installed and configured on your system.
 
-Run the Python script:
+Run the Python script by submitting job on dataproc
+<img width="1002" alt="Screenshot 2023-09-18 at 7 51 19 PM" src="https://github.com/franketang/PySpark-KNN/assets/29631514/a8b78fe5-e2ff-4f85-9a4e-2e75d08a421d">
 
-bash
-Copy code
-python pyspark_knn_project.py
+
 View the accuracy of the k-NN model on the Iris dataset.
 Project Structure
 The project structure is organized as follows:
@@ -51,26 +37,25 @@ The project structure is organized as follows:
 bash
 Copy code
 pyspark-knn-project/
-  ├── pyspark_knn_project.py  # Main Python script
+  ├── pysparkknn.py  # Main Python script
   ├── README.md               # Project documentation (you are here)
   └── images/                 # Images and visualizations
+
 Usage
-Modify the pyspark_knn_project.py script to customize the k-NN model or dataset.
+Modify the pysparkknn.py script to customize the k-NN model or dataset.
 Experiment with different hyperparameters, such as the number of neighbors (k), to optimize model performance.
 Explore additional evaluation metrics beyond accuracy for a more comprehensive analysis.
+
 Results
 The project demonstrates how to build a k-NN classification model using PySpark and evaluate its performance on the Iris dataset. The accuracy achieved on the test data is reported in the console output.
+<img width="1007" alt="Screenshot 2023-09-18 at 8 07 43 PM" src="https://github.com/franketang/PySpark-KNN/assets/29631514/0c5060dd-042f-410b-a69e-8d1b6ba1e315">
+
+
 
 Contributing
 Contributions are welcome! Feel free to open issues, submit pull requests, or provide suggestions to improve this project.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-vbnet
-Copy code
-
-You can customize this README.md template to include additional details, visuals, or specific instructions for your project. Don't forget to replace placeholders such as `your-username` with your actual GitHub username and update the project's directory structure and file names accordingly.
-
 
 
