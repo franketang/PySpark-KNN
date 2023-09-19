@@ -8,6 +8,8 @@ This project demonstrates how to implement k-Nearest Neighbors (k-NN) classifica
 
 ![Iris Flowers](images/iris-flowers.png)
 
+![PySpark for KNN Project Google Slides](https://docs.google.com/presentation/d/1ARbGWvwN3wITuDLKiwxUqz_PzmanvEydkJ9GUmo0Oy4/edit?usp=drive_link)
+
 
 ## Prerequisites
 
